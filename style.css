@@ -1,0 +1,66 @@
+body {
+  background-color: #9F6DAF;
+  color: #07CEDC;
+  max-width: 100%;
+  
+  font-size: larger;
+  padding-top: 20px;
+}
+
+header {
+  align-items: center;
+  margin: 0 auto;
+}
+
+.blue{
+  color:blue
+}
+
+#header-image img {
+  max-width: 80%;
+  height: auto;
+}
+
+#header-image {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+section {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2 {
+  color: ;
+  font-family: "Playfair Display";
+  margin: 0;
+}
+
+p {
+  background-color: #9F6DAFZ;
+  padding: 20px;
+}
+
+a {
+  color:#CA59B7 ;
+  text-decoration:none ;
+}
+
+a:hover {
+  color: darkorange;
+  text-decoration: underline;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: space-between;
+}
